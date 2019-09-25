@@ -10,11 +10,13 @@
 └── package.json                   // npm包配置文件，定义项目的npm脚本，依赖包等信息
 ```
 
-## 2. 部署说明
+## 2. 步骤
 
-1. 前端打包后的静态资源，复制到 `/public` 文件夹。
-2. 选择文件ZIP压缩并重命名为 `app.zip`，至少选择`node_modules`、`public` 和 `app.js` 3个文件。
-3. 通过Node服务，选择 `app.zip` 文件进行部署。 
+1. 克隆项目到本地，并执行 `npm install` 安装依赖。
+2. 将前端打包后的静态资源，复制到 `/public` 文件夹。
+3. 选择文件ZIP压缩并重命名为 `app.zip`，至少选择`node_modules`、`public` 和 `app.js` 3个文件。
+4. 通过Node服务，选择 `app.zip` 文件进行部署。 
+5. 非PAAS平台发布，可不压缩，直接部署到服务器。
 
 #### 相关文档
 
