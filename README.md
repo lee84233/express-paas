@@ -15,3 +15,8 @@
 1. 前端打包后的静态资源，复制到 `/public` 文件夹。
 2. 选择文件ZIP压缩并重命名为 `app.zip`，至少选择`node_modules`、`public` 和 `app.js` 3个文件。
 3. 通过Node服务，选择 `app.zip` 文件进行部署。 
+
+#### 相关文档
+
+1. 单页面应用`history`模式下`404`问题解决方案：[connect-history-api-fallback](https://github.com/bripkens/connect-history-api-fallback)
+2. 解决跨域的代理中间件：[http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
