@@ -4,10 +4,12 @@ const path = require('path');
 const history = require('connect-history-api-fallback');
 const proxyMiddleWare = require('http-proxy-middleware');
 
-// 环境变量：development | product
+/**
+ * 环境变量：development | product
+ */
 const ENV = 'development';
 // 端口
-const PORT = 8080;
+const PORT = 8000;
 
 // 代理地址
 var proxy_url = '';
