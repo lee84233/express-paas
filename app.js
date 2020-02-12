@@ -9,7 +9,7 @@ const proxyMiddleWare = require('http-proxy-middleware');
  */
 const ENV = 'development';
 // 端口
-const PORT = 8000;
+const PORT = 8080;
 
 // 代理地址
 var proxy_url = '';
