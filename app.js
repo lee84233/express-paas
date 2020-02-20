@@ -5,15 +5,15 @@ const history = require('connect-history-api-fallback');
 const proxyMiddleWare = require('http-proxy-middleware');
 
 /**
- * 环境变量：development | product
+ * 环境变量：test | product
  */
-const ENV = 'development';
+const ENV = 'test';
 // 端口
 const PORT = 8080;
 
 // 代理地址
 var proxy_url = '';
-if (ENV === 'development') {
+if (ENV === 'test') {
   // 开发环境
   proxy_url = 'https://test.yiger.com';
 } else if (ENV === 'product') {
